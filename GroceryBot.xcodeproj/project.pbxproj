@@ -1,0 +1,523 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9CF95DB31BBA484700AABB61 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CF95DB21BBA484700AABB61 /* AppDelegate.swift */; };
+		9CF95DB51BBA484700AABB61 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CF95DB41BBA484700AABB61 /* ViewController.swift */; };
+		9CF95DB81BBA484700AABB61 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9CF95DB61BBA484700AABB61 /* Main.storyboard */; };
+		9CF95DBB1BBA484700AABB61 /* GroceryBot.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 9CF95DB91BBA484700AABB61 /* GroceryBot.xcdatamodeld */; };
+		9CF95DBD1BBA484700AABB61 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9CF95DBC1BBA484700AABB61 /* Assets.xcassets */; };
+		9CF95DC01BBA484700AABB61 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9CF95DBE1BBA484700AABB61 /* LaunchScreen.storyboard */; };
+		9CF95DCB1BBA484700AABB61 /* GroceryBotTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CF95DCA1BBA484700AABB61 /* GroceryBotTests.swift */; };
+		9CF95DD61BBA484700AABB61 /* GroceryBotUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CF95DD51BBA484700AABB61 /* GroceryBotUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9CF95DC71BBA484700AABB61 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9CF95DA71BBA484600AABB61 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9CF95DAE1BBA484600AABB61;
+			remoteInfo = GroceryBot;
+		};
+		9CF95DD21BBA484700AABB61 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9CF95DA71BBA484600AABB61 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9CF95DAE1BBA484600AABB61;
+			remoteInfo = GroceryBot;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		9CF95DAF1BBA484600AABB61 /* GroceryBot.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GroceryBot.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9CF95DB21BBA484700AABB61 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		9CF95DB41BBA484700AABB61 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		9CF95DB71BBA484700AABB61 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9CF95DBA1BBA484700AABB61 /* GroceryBot.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = GroceryBot.xcdatamodel; sourceTree = "<group>"; };
+		9CF95DBC1BBA484700AABB61 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9CF95DBF1BBA484700AABB61 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9CF95DC11BBA484700AABB61 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9CF95DC61BBA484700AABB61 /* GroceryBotTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GroceryBotTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9CF95DCA1BBA484700AABB61 /* GroceryBotTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroceryBotTests.swift; sourceTree = "<group>"; };
+		9CF95DCC1BBA484700AABB61 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9CF95DD11BBA484700AABB61 /* GroceryBotUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GroceryBotUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9CF95DD51BBA484700AABB61 /* GroceryBotUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroceryBotUITests.swift; sourceTree = "<group>"; };
+		9CF95DD71BBA484700AABB61 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9CF95DAC1BBA484600AABB61 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9CF95DC31BBA484700AABB61 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9CF95DCE1BBA484700AABB61 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9CF95DA61BBA484600AABB61 = {
+			isa = PBXGroup;
+			children = (
+				9CF95DB11BBA484700AABB61 /* GroceryBot */,
+				9CF95DC91BBA484700AABB61 /* GroceryBotTests */,
+				9CF95DD41BBA484700AABB61 /* GroceryBotUITests */,
+				9CF95DB01BBA484600AABB61 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9CF95DB01BBA484600AABB61 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9CF95DAF1BBA484600AABB61 /* GroceryBot.app */,
+				9CF95DC61BBA484700AABB61 /* GroceryBotTests.xctest */,
+				9CF95DD11BBA484700AABB61 /* GroceryBotUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9CF95DB11BBA484700AABB61 /* GroceryBot */ = {
+			isa = PBXGroup;
+			children = (
+				9CF95DB21BBA484700AABB61 /* AppDelegate.swift */,
+				9CF95DB41BBA484700AABB61 /* ViewController.swift */,
+				9CF95DB61BBA484700AABB61 /* Main.storyboard */,
+				9CF95DBC1BBA484700AABB61 /* Assets.xcassets */,
+				9CF95DBE1BBA484700AABB61 /* LaunchScreen.storyboard */,
+				9CF95DC11BBA484700AABB61 /* Info.plist */,
+				9CF95DB91BBA484700AABB61 /* GroceryBot.xcdatamodeld */,
+			);
+			path = GroceryBot;
+			sourceTree = "<group>";
+		};
+		9CF95DC91BBA484700AABB61 /* GroceryBotTests */ = {
+			isa = PBXGroup;
+			children = (
+				9CF95DCA1BBA484700AABB61 /* GroceryBotTests.swift */,
+				9CF95DCC1BBA484700AABB61 /* Info.plist */,
+			);
+			path = GroceryBotTests;
+			sourceTree = "<group>";
+		};
+		9CF95DD41BBA484700AABB61 /* GroceryBotUITests */ = {
+			isa = PBXGroup;
+			children = (
+				9CF95DD51BBA484700AABB61 /* GroceryBotUITests.swift */,
+				9CF95DD71BBA484700AABB61 /* Info.plist */,
+			);
+			path = GroceryBotUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9CF95DAE1BBA484600AABB61 /* GroceryBot */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9CF95DDA1BBA484700AABB61 /* Build configuration list for PBXNativeTarget "GroceryBot" */;
+			buildPhases = (
+				9CF95DAB1BBA484600AABB61 /* Sources */,
+				9CF95DAC1BBA484600AABB61 /* Frameworks */,
+				9CF95DAD1BBA484600AABB61 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GroceryBot;
+			productName = GroceryBot;
+			productReference = 9CF95DAF1BBA484600AABB61 /* GroceryBot.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9CF95DC51BBA484700AABB61 /* GroceryBotTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9CF95DDD1BBA484700AABB61 /* Build configuration list for PBXNativeTarget "GroceryBotTests" */;
+			buildPhases = (
+				9CF95DC21BBA484700AABB61 /* Sources */,
+				9CF95DC31BBA484700AABB61 /* Frameworks */,
+				9CF95DC41BBA484700AABB61 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9CF95DC81BBA484700AABB61 /* PBXTargetDependency */,
+			);
+			name = GroceryBotTests;
+			productName = GroceryBotTests;
+			productReference = 9CF95DC61BBA484700AABB61 /* GroceryBotTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		9CF95DD01BBA484700AABB61 /* GroceryBotUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9CF95DE01BBA484700AABB61 /* Build configuration list for PBXNativeTarget "GroceryBotUITests" */;
+			buildPhases = (
+				9CF95DCD1BBA484700AABB61 /* Sources */,
+				9CF95DCE1BBA484700AABB61 /* Frameworks */,
+				9CF95DCF1BBA484700AABB61 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9CF95DD31BBA484700AABB61 /* PBXTargetDependency */,
+			);
+			name = GroceryBotUITests;
+			productName = GroceryBotUITests;
+			productReference = 9CF95DD11BBA484700AABB61 /* GroceryBotUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9CF95DA71BBA484600AABB61 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = "Steve Jacoby";
+				TargetAttributes = {
+					9CF95DAE1BBA484600AABB61 = {
+						CreatedOnToolsVersion = 7.0;
+					};
+					9CF95DC51BBA484700AABB61 = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = 9CF95DAE1BBA484600AABB61;
+					};
+					9CF95DD01BBA484700AABB61 = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = 9CF95DAE1BBA484600AABB61;
+					};
+				};
+			};
+			buildConfigurationList = 9CF95DAA1BBA484600AABB61 /* Build configuration list for PBXProject "GroceryBot" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9CF95DA61BBA484600AABB61;
+			productRefGroup = 9CF95DB01BBA484600AABB61 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9CF95DAE1BBA484600AABB61 /* GroceryBot */,
+				9CF95DC51BBA484700AABB61 /* GroceryBotTests */,
+				9CF95DD01BBA484700AABB61 /* GroceryBotUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9CF95DAD1BBA484600AABB61 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9CF95DC01BBA484700AABB61 /* LaunchScreen.storyboard in Resources */,
+				9CF95DBD1BBA484700AABB61 /* Assets.xcassets in Resources */,
+				9CF95DB81BBA484700AABB61 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9CF95DC41BBA484700AABB61 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9CF95DCF1BBA484700AABB61 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9CF95DAB1BBA484600AABB61 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9CF95DB51BBA484700AABB61 /* ViewController.swift in Sources */,
+				9CF95DB31BBA484700AABB61 /* AppDelegate.swift in Sources */,
+				9CF95DBB1BBA484700AABB61 /* GroceryBot.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9CF95DC21BBA484700AABB61 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9CF95DCB1BBA484700AABB61 /* GroceryBotTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9CF95DCD1BBA484700AABB61 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9CF95DD61BBA484700AABB61 /* GroceryBotUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9CF95DC81BBA484700AABB61 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9CF95DAE1BBA484600AABB61 /* GroceryBot */;
+			targetProxy = 9CF95DC71BBA484700AABB61 /* PBXContainerItemProxy */;
+		};
+		9CF95DD31BBA484700AABB61 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9CF95DAE1BBA484600AABB61 /* GroceryBot */;
+			targetProxy = 9CF95DD21BBA484700AABB61 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		9CF95DB61BBA484700AABB61 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9CF95DB71BBA484700AABB61 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		9CF95DBE1BBA484700AABB61 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9CF95DBF1BBA484700AABB61 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9CF95DD81BBA484700AABB61 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9CF95DD91BBA484700AABB61 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9CF95DDB1BBA484700AABB61 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = GroceryBot/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = StartlingDevelopments.GroceryBot;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		9CF95DDC1BBA484700AABB61 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = GroceryBot/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = StartlingDevelopments.GroceryBot;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		9CF95DDE1BBA484700AABB61 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = GroceryBotTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = StartlingDevelopments.GroceryBotTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GroceryBot.app/GroceryBot";
+			};
+			name = Debug;
+		};
+		9CF95DDF1BBA484700AABB61 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = GroceryBotTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = StartlingDevelopments.GroceryBotTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GroceryBot.app/GroceryBot";
+			};
+			name = Release;
+		};
+		9CF95DE11BBA484700AABB61 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = GroceryBotUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = StartlingDevelopments.GroceryBotUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = GroceryBot;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		9CF95DE21BBA484700AABB61 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = GroceryBotUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = StartlingDevelopments.GroceryBotUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = GroceryBot;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9CF95DAA1BBA484600AABB61 /* Build configuration list for PBXProject "GroceryBot" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9CF95DD81BBA484700AABB61 /* Debug */,
+				9CF95DD91BBA484700AABB61 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9CF95DDA1BBA484700AABB61 /* Build configuration list for PBXNativeTarget "GroceryBot" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9CF95DDB1BBA484700AABB61 /* Debug */,
+				9CF95DDC1BBA484700AABB61 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		9CF95DDD1BBA484700AABB61 /* Build configuration list for PBXNativeTarget "GroceryBotTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9CF95DDE1BBA484700AABB61 /* Debug */,
+				9CF95DDF1BBA484700AABB61 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		9CF95DE01BBA484700AABB61 /* Build configuration list for PBXNativeTarget "GroceryBotUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9CF95DE11BBA484700AABB61 /* Debug */,
+				9CF95DE21BBA484700AABB61 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		9CF95DB91BBA484700AABB61 /* GroceryBot.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				9CF95DBA1BBA484700AABB61 /* GroceryBot.xcdatamodel */,
+			);
+			currentVersion = 9CF95DBA1BBA484700AABB61 /* GroceryBot.xcdatamodel */;
+			path = GroceryBot.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 9CF95DA71BBA484600AABB61 /* Project object */;
+}
